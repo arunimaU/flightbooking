@@ -76,6 +76,16 @@
 			<version>2.9.2</version>
 		</dependency>
 	</dependencies>
+<distributionManagement>
+  <repository>
+    <id>nexus</id>
+    <url>http://15.206.100.96:8081/nexus/content/repositories/releases</url>
+  </repository>
+  <snapshotRepository>
+    <id>nexus</id>
+    <url>http://15.206.100.96:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+</distributionManagement>
 
 	<build>
 		<plugins>
