@@ -27,6 +27,7 @@
 			**/ServiceLocator.java*, **/PaymentService.java*,
 			**/Paytm.java*,**/Phonepe.java*
 			**/GlobalExceptionHandler.java*
+	         <sonar.host.url></sonar.host.url>
 		</sonar.coverage.exclusions>
 	</properties>
 
